@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+    background-image: url(images/yin-yang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black, 4px 4px silver;
+    background-color: black;
+    border-style: groove;
+    border-width: 10px;
+    border-color: silver;
+    padding: 10px;
+}
+
+a {
+    font-family: 'Russo One', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 2px 2px black, 4px 4px silver;
+    margin: 20px 0px 20px 0px;
+
+}
+
+
+.about-text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: black;
+}
+
+p {
+    padding: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.index-form {
+    width: 100%;
+    background-color: silver;
+    padding: 50px;
+    opacity: 97%;
+}
+
+.form-text {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  li {
+      float: left;
+      list-style: none;
+      margin: 10px 50px 10px 50px;
+  }
+
+  footer {
+      background-color: black;
+      border-style: groove;
+      border-width: 10px;
+      border-color: silver;
+      padding: 0px;
+      height: 125px;
+  }
+
+
+  
