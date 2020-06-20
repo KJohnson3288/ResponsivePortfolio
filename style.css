@@ -1,8 +1,10 @@
 body {
-    background-color: white;
+    background-color:black;
     background-image: url(images/yin-yang.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    
 }
 
 h1 {
@@ -15,13 +17,16 @@ h1 {
     border-width: 10px;
     border-color: silver;
     padding: 10px;
+    background-image: url(images/yin-yang.jpg);
 }
 
 a {
     font-family: 'Russo One', sans-serif;
 }
 
+
 h2 {
+    padding: 5px;
     color: white;
     font-family: 'Russo One', sans-serif;
     text-shadow: 2px 2px black, 4px 4px silver;
@@ -29,12 +34,24 @@ h2 {
 
 }
 
+h4 {
+    padding: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Russo One', sans-serif;
+}
 
-.about-text {
+
+#about-text {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     background-color: black;
+    margin: 10px;
+    padding: 5px;
+    border-style: groove;
+    border-width: 4px;
+
 }
 
 p {
@@ -67,7 +84,7 @@ p {
     background-color: white;
   }
   
-  /* Add a hover effect if you want */
+  
   .fa:hover {
     opacity: 0.7;
   }
@@ -78,14 +95,54 @@ p {
       margin: 10px 50px 10px 50px;
   }
 
-  footer {
-      background-color: black;
-      border-style: groove;
-      border-width: 10px;
-      border-color: silver;
-      padding: 0px;
-      height: 125px;
-  }
+.img-thumbnail {
+width: 85%;
+height: 75%;
+margin: 5%;
+padding: 0px;
+text-align: center;
+
+    
+}
+
+.portfolio-text {
+    width: 100%;
+    background-color: black;
+    border-style: outset;
+    border-width: 2px;
+    border-color: silver;
+
+}
+
+
+#myPic {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    border-style: inset;
+    border-width: 3px;
+    border-color: white;
+}
+
+.link {
+    margin: 0px;
+    padding: 5px;
+}
+
+.link-container {
+    margin: 5px;
+    padding: 5px;
+    border-style: ridge;
+    border-width: 7px;
+    border-color: dimgray;
+    background-color: white;
+}
+
+.link-text {
+    color: black;
+    text-shadow: 1px 1px silver;
+}
 
 
   
