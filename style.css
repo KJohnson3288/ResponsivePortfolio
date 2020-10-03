@@ -41,6 +41,14 @@ h4 {
     font-family: 'Russo One', sans-serif;
 }
 
+.card{
+    background-color: black;
+}
+
+.project-pic {
+    height: 250px;
+}
+
 
 #about-text {
     color: white;
