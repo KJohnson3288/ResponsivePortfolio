@@ -1,6 +1,6 @@
 body {
     background-color:black;
-    background-image: url(images/yin-yang.jpg);
+    background-image: url(Images/yin-yang.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,7 +17,7 @@ h1 {
     border-width: 10px;
     border-color: silver;
     padding: 10px;
-    background-image: url(images/yin-yang.jpg);
+    background-image: url(Images/yin-yang.jpg);
 }
 
 a {
